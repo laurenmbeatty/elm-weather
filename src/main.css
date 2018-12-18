@@ -1,0 +1,48 @@
+body {
+  font-family: "Source Sans Pro", "Trebuchet MS", "Lucida Grande",
+    "Bitstream Vera Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #293c4b;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+img {
+  margin: 20px 0;
+  max-width: 200px;
+}
+
+.forecastGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.forecastItem {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  width: 10rem;
+  background-color: #3862a2;
+  color: white;
+}
+.date {
+  padding-bottom: 10px;
+}
+
+.high {
+  font-size: 2rem;
+}
+
+.low {
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.description {
+  text-transform: capitalize;
+}
